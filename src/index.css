@@ -6,6 +6,19 @@
   box-sizing: border-box;
 }
 
+*::-webkit-scrollbar {
+  width: 5px;
+}
+
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #9e78cf;
+  border-radius: 5px;
+}
+
 :root {
   --color-purple: #9e78cf;
   --color-white: #ffffff;
@@ -19,35 +32,46 @@
 body {
   font-family: "Inter", sans-serif;
   font-size: 16px;
-  background-color: var(--color-black-purple);
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
 
   margin: 0;
   padding: 0;
-  min-height: 100vh;
   line-height: 1.5;
 }
 
-#container {
-  max-width: 583px;
-  /* margin-inline: auto; */
+body.dark-theme {
+  background-color: var(--color-black-purple);
+}
 
-  background-color: #1d1825;
+body.light-theme {
+  background-color: #d6d6d6;
+}
+
+#container {
+  width: 590px;
+  min-height: 90vh;
+
   border-radius: 20px;
   min-height: 80vh;
 
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 50px 90px 50px 65px;
+  padding: 50px 65px;
+  margin: 10vh auto auto auto;
+}
+
+.dark {
+  background-color: #1d1825;
+}
+
+.light {
+  background-color: #f5f5f5;
 }
 
 @media (max-width: 1024px) {
   #container {
-    min-width: 85vw;
+    width: 95%;
+    padding: 50px 20px;
   }
 }
 
@@ -56,10 +80,10 @@ body {
   flex-direction: column;
   align-items: flex-start;
   width: 100%;
+  height: 100%;
 }
 
-#currentTasks,
-#doneTasks {
+.tasks-list {
   width: 100%;
 }
 
@@ -69,6 +93,14 @@ body {
   font-size: 14px;
   margin-top: 60px;
   color: var(--color-white);
+}
+
+.tasks-header.dark{
+  color: var(--color-white);
+}
+
+.tasks-header.light{
+  color: black;
 }
 
 @media (prefers-reduced-motion: reduce) {

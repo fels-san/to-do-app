@@ -1,0 +1,61 @@
+
+.menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  width: 97%;
+}
+
+.tabs {
+  display: flex;
+  gap: 1rem;
+}
+
+.menu button {
+  padding: 0.5rem 0.25rem 0.5rem 0.25rem;
+  text-align: left;
+  cursor: pointer;
+  border-radius: 4px 4px 0 0;
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
+  display: flex;
+  align-items: center;
+}
+
+.menu.light button {
+  color: #000000;
+}
+
+.menu.dark button {
+  color: #ffffff;
+}
+
+.menu button:hover,
+.menu button.selected {
+  color: #9e78cf;
+}
+
+.menu .activeTabIndicator {
+  border: 1.5px solid #9e78cf;
+  border-radius: 8px;
+}
+
+.sortButton {
+  padding: 0.5rem 0.25rem 0.5rem 0.25rem;
+  text-align: left;
+  cursor: pointer;
+  border-radius: 4px 4px 0 0;
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  align-items: center;
+}

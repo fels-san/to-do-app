@@ -1,0 +1,43 @@
+.newTask label {
+  display: block;
+  margin-bottom: 0.15rem;
+  font-weight: bold;
+  font-size: 0.8rem;
+  font-family: "Quicksand", sans-serif;
+  color: #414956;
+}
+
+.newTask input,
+.newTask textarea {
+  display: block;
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 4px;
+  border: 1px solid #d9e2f1;
+  background-color: #fff;
+  color: #414956;
+  font-size: 0.8rem;
+  font-family: "Quicksand", sans-serif;
+}
+
+.actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+}
+
+.actions button,
+.button {
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  background-color: #9e78cf;
+  color: #fff;
+  border: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.actions button:hover,
+.button:hover {
+  background-color: #8c67bc;
+}

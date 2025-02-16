@@ -1,0 +1,39 @@
+.header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  width: 100%;
+  padding-right: 3%;
+}
+
+.header h1 {
+  width: 100%;
+  margin: 0;
+  color: #000000;
+}
+
+.header.dark h1 {
+  color: #ffffff;
+}
+
+.header.light h1 {
+  color: #000000;
+}
+
+.header button {
+  width: 40px;
+  height: 40px;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: #9e78cf;
+  color: #ffffff;
+  font-size: 3rem;
+  font-weight: 200;
+
+  border: none;
+  border-radius: 10px;
+}
