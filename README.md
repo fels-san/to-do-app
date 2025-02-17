@@ -4,7 +4,7 @@ A simple To-Do list app built with **React**, **TypeScript**, **Redux Toolkit**,
 
 🔗 **Live Demo**: https://fels-san.github.io/to-do-app/
 
-## 🖼 Screenshots  
+## Screenshots  
 
 ![Light Mode](https://github.com/user-attachments/assets/b154f3f5-22a6-46ad-904a-5ade1b21e960)  
 _Light mode interface_  
