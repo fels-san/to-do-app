@@ -46,16 +46,8 @@
   border-radius: 8px;
 }
 
-.sortButton {
-  padding: 0.5rem 0.25rem 0.5rem 0.25rem;
-  text-align: left;
-  cursor: pointer;
-  border-radius: 4px 4px 0 0;
-  background-color: transparent;
-  border: none;
-  box-shadow: none;
-  display: flex;
-  flex-direction: row;
-  gap: 0.5rem;
-  align-items: center;
+@media (max-width: 500px) {
+  .menu {
+    flex-direction: column;
+  }
 }
