@@ -37,7 +37,7 @@ _Dark mode interface_
 1. Clone this repository:
 
 ```
-git clone https://github.com/your-username/to-do-app.git
+git clone https://github.com/fels-san/to-do-app.git
 
 ```
 
