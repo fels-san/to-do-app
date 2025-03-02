@@ -1,6 +1,6 @@
 # To Do App
 
-A simple To-Do list app built with **React**, **TypeScript**, **Redux Toolkit**, **Framer Motion**, and **Vite**. This app allows users to manage tasks with features like dark/light mode, task deadlines, and task sorting.
+A simple To-Do list app built with **React**, **TypeScript**, **Redux Toolkit**, **Framer Motion**, and **Vite**. This app allows users to manage tasks with features like task deadlines, task sorting and dark/light mode.
 
 🔗 **Live Demo**: https://fels-san.github.io/to-do-app/
 
@@ -14,15 +14,15 @@ _Dark mode interface_
 
 ## Features
 
-- **🌗 Dark and Light Themes**: Toggle between dark and light themes for a comfortable user experience.
-- **📝 Task Management**: Add tasks with descriptions and deadlines.
-- **📅 Task Sorting**: Sort tasks by creation date or deadline.
-- **📂 Task Categorization**: Organize tasks into three sections:
+- **Task Management**: Add tasks with descriptions and deadlines.
+- **Task Sorting**: Sort tasks by creation date or deadline.
+- **Task Categorization**: Organize tasks into three sections:
   - All Tasks
   - To-Do
   - Completed
-- **⏳ Overdue Task Highlighting**: Tasks with past deadlines are highlighted in a distinct color to easily identify them.
-- **🎬 Smooth Animations**: Tasks animate when added, completed, or deleted using Framer Motion.
+- **Overdue Task Highlighting**: Tasks with past deadlines are highlighted in a distinct color to easily identify them.
+- **Smooth Animations**: Tasks animate when added, completed, or deleted using Framer Motion.
+- **Dark and Light Themes**: Toggle between dark and light themes for a comfortable user experience.
 
 ## Technologies Used
 
