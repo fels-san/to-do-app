@@ -1,6 +1,6 @@
 # To Do App
 
-A simple To-Do list app built with **React**, **TypeScript**, **Redux Toolkit**, **Framer Motion**, and **Vite**. This app allows users to manage tasks with features like task deadlines, task sorting and dark/light mode.
+A simple To-Do list app built with **React**, **TypeScript**, **Redux Toolkit**, **Redux Persist**, **Framer Motion**, and **Vite**. This app allows users to manage tasks with features like task deadlines, task sorting and dark/light mode.
 
 🔗 **Live Demo**: https://fels-san.github.io/to-do-app/
 
@@ -29,6 +29,7 @@ _Dark mode interface_
 - **React**  for building the user interface.
 - **TypeScript** for type safety.
 - **Redux Toolkit** for state management.
+- **Redux Persist** for persisting tasks between sessions.
 - **Framer Motion** for animations.
 - **Vite** for fast development and bundling.
 
